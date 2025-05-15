@@ -1,20 +1,84 @@
 <!DOCTYPE html> 
 <html lang="pt-BR"> 
-    <head> 
-        <meta charset="UTF-8">        
-        <style>.assinatura-container { position: relative; width: 1200px; height: 400px; font-family: 'Arial', sans-serif; color: white; } .assinatura-container img { position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 0; } .texto { position: absolute; z-index: 1; } .nome { top: 100px; left: 700px; font-size: 28px; font-weight: bold; } .cargo { top: 140px; left: 700px; font-size: 16px; color: #b08d3b; } .telefone { top: 180px; left: 700px; font-size: 24px; font-weight: bold; } .email { top: 220px; left: 700px; font-size: 18px; color: #b08d3b; }</style>         
-    </head>     
-    <body style="color: #ffffff;"> 
-        <div class="assinatura-container"> 
-            <img src="signature.png" alt="Assinatura Fundo">             
-            <div>                  
-                <div class="texto nome" style="padding-left: 0px; margin-left: -170px; margin-top: 20px;">[#Name#]</div>
-                <div class="texto cargo" style="margin-top:30px; margin-left: -170px;">[#Title#]</div>                 
-                <div class="texto telefone" style="margin-top: 40px; margin-left: -170px;">[#AllPhones#]</div>                 
-                <div class="texto email" style="margin-top: 50px; margin-left: -170px;">[#WorkEmail#]</div>        
-                <div class="texto email" style="margin-top: 130px; margin-left: 135px;"><a href="https://agricolaalvorada.com.br/" target="_blank" style=" letter-spacing: 2px; font-size: 19px; color: #ffffff; text-decoration: none;">www.agricolaalvorada.com.br</a></div>        
-            </div>
-                         
-        </div>         
-    </body>     
+<head> 
+  <meta charset="UTF-8">        
+  <style>
+    .assinatura-container {
+      position: relative;
+      width: 1200px;
+      height: 400px;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .assinatura-container img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+
+    .texto {
+      position: absolute;
+      z-index: 1;
+      white-space: nowrap;
+    }
+
+    .nome {
+      top: 120px;
+      left: 530px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .cargo {
+      top: 160px;
+      left: 530px;
+      font-size: 16px;
+      color: #b08d3b;
+    }
+
+    .telefone {
+      top: 200px;
+      left: 530px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .email {
+      top: 240px;
+      left: 530px;
+      font-size: 18px;
+      color: #b08d3b;
+    }
+
+    .site {
+      top: 320px;
+      left: 200px;
+      font-size: 19px;
+      letter-spacing: 2px;
+      color: #ffffff;
+    }
+
+    .site a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  </style>         
+</head>     
+<body style="color: #ffffff;"> 
+  <div class="assinatura-container"> 
+    <img src="https://raw.githubusercontent.com/alexsanderlinn/signature/main/signature.png" alt="Assinatura Fundo">             
+
+    <div class="texto nome">[#Name#]</div>
+    <div class="texto cargo">[#Title#]</div>                 
+    <div class="texto telefone">[#AllPhones#]</div>                 
+    <div class="texto email">[#WorkEmail#]</div>        
+    <div class="texto site">
+      <a href="https://agricolaalvorada.com.br/" target="_blank">www.agricolaalvorada.com.br</a>
+    </div>
+  </div>         
+</body>     
 </html>
